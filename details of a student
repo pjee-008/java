@@ -1,0 +1,27 @@
+PRINT THE  DETAILS OF STUDENT
+
+import java.util.Scanner;
+class pjee4
+{
+ public static void main(String[] args)
+ {
+  Scanner sc =new Scanner(System.in);
+  System.out.println("enter the name");
+  String c =sc.nextLine();
+  System.out.println("enter the gender");
+  String d =sc.nextLine();
+  System.out.println("enter the gmail address");
+  String e =sc.nextLine();
+  System.out.println("enter the phone number");
+  String f =sc.nextLine();
+  sc.close();
+  System.out.println("the details are ");
+  System.out.println("name"+c);
+  System.out.println("gender"+d);
+  System.out.println("gmail"+e);
+  System.out.println("phone"+f);
+  }
+}
+ 
+ 
+ 
