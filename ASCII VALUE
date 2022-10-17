@@ -1,0 +1,15 @@
+CONVERT A CHARACTER TO ASCII VALUE
+  import java.util.Scanner;
+class pjee1
+{
+ public static void main(String[] args)
+ {
+  System.out.println("enter  the number ");
+  Scanner sc = new Scanner (System.in);
+  char ch =sc.next().charAt(0);
+  int as =ch;
+  sc.close();
+  System.out.println("the ascii value of " +ch+"is "+as);
+  
+ }
+}
